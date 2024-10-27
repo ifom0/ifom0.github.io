@@ -6,4 +6,4 @@ permalink: /contact/
 
 We meet every Tuesday at 7 pm.
 
-For more information please email us at (loading...)
+For more information please email us at ifom0@posteo.uk

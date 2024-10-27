@@ -12,9 +12,9 @@
 }
 
 .site-title {
-  @include relative-font-size(4);
+  @include relative-font-size(3);
   font-weight: 900;
-  line-height: $base-line-height * $base-font-size * 5.5;
+  line-height: $base-line-height * $base-font-size * 3;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
@@ -26,11 +26,11 @@
 }
 
 .site-nav {
-  @include relative-font-size(1.2);
+  @include relative-font-size(1);
   border-left: 20px solid $site-nav-background-color;
   border-right: 20px solid $site-nav-background-color;
   float: left;
-  line-height: $base-line-height * $base-font-size * 1.8;
+  line-height: $base-line-height * $base-font-size * 1.4;
   background-color: $site-nav-background-color;
 
   .nav-trigger {
@@ -191,7 +191,7 @@
 }
 
 .page-heading {
-  @include relative-font-size(2);
+  @include relative-font-size(1.75);
 }
 
 .post-list-heading {
@@ -227,12 +227,12 @@
 }
 
 .post-title {
-  @include relative-font-size(2.625);
+  @include relative-font-size(1.75);
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(1.75);
   }
 }
 
@@ -242,12 +242,12 @@
 }
 
 .post-preview .post-image {
-  height: 350px !important; /* Set fixed height for cropping */
+  height: 256px !important; /* Set fixed height for cropping */
   overflow: hidden !important; /* Hide overflow to crop the image */
 }
 
 .post-preview .post-image img {
-  width: 75%; /* Use 100% width to fill the container */
+  width: 144; /* Use % width to fill the container */
   height: auto; /* Allow height to adjust to maintain aspect ratio */
   object-fit: cover; /* Optional: Crop the image to fit the box */ 
 }

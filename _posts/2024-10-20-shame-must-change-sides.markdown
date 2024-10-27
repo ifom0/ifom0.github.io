@@ -6,4 +6,4 @@ image: /assets/images/signal-2024-09-24-151544_002.jpeg
 categories: jekyll update
 ---
 
-We stand in solidarity with Gisèle Pelicot and every rape victim.
+We stand in solidarity with Gisèle Pelicot and every victim of sexual violence. Shame belongs to the perpetrators.
