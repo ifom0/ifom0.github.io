@@ -217,6 +217,25 @@
   @include relative-font-size(1.5);
 }
 
+.post-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .post-item {
+    flex: 1 1 calc(50% - 1rem); /* 2 columns with some gap */
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .post-item {
+      flex: 1 1 100%;
+    }
+  }
 
 
 /**
